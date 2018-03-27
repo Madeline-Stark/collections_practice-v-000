@@ -47,6 +47,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array = array.join
-  new_array.start_with?("a")
+  strings = array.join
+  more_strings = []
+  strings.each do |string|
+    if string.start_with?("a")
+      more_strings << string
+  end
+  more_strings
 end
