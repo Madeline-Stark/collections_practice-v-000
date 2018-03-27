@@ -39,7 +39,7 @@ end
 
 def kesha_maker(array)
 array.collect do |string|
-  str[n] = "$"
+  str[3] = "$"
 end
 
 end
