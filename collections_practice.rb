@@ -33,5 +33,4 @@ def swap_elements(array)
   a = b
   b = a
   end
-  end
 end
