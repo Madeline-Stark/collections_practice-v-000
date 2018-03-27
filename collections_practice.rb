@@ -72,3 +72,4 @@ def add_s(array)
     string = "string#{s}"
   end
 end
+end
