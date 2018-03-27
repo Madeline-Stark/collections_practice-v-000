@@ -65,7 +65,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0, 1, 3...].collect do |string|
+  array[0, 1, 3..].collect do |string|
     string = "string#{s}"
   end
 end
