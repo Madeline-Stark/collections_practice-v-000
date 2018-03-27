@@ -48,5 +48,4 @@ end
 
 def find_a(array)
   array.select.start_with?("a")
-
 end
