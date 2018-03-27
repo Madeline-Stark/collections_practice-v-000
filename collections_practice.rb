@@ -30,8 +30,8 @@ end
 
 def swap_elements(array)
   array[1, 2].sort do |a, b|
-  a = b 
-  b = a  
+  a = b
+  b = a
   end
   end
 end
