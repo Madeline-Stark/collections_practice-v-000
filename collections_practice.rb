@@ -65,7 +65,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0, 1, 3, 4].collect do |string|
+  array.each_with_index.collect do |string, index|
+    if index = 1
+      string
+    else 
     string = "string#{s}"
   end
 end
