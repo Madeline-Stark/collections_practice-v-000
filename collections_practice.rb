@@ -38,15 +38,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  if block_given?
-    counter = 0
-    while counter < array.length
-      yield(array[counter])
-      counter += 1
-    end
-    array
-  else
-    "This block should not run!"
-  end
+array.collect do |string|
+  str[n] = $
+end
 
 end
