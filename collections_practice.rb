@@ -52,6 +52,7 @@ def find_a(array)
   strings.each do |string|
     if string.start_with?("a")
       more_strings << string
+    end
   end
   more_strings
 end
