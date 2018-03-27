@@ -69,7 +69,7 @@ def add_s(array)
     if index == 1
       string
     else
-    string = "string#{s}"
+    string = "string#{"s"}"
   end
 end
 end
