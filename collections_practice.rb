@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -28,6 +30,7 @@ end
 
 def swap_elements(array)
   array[1, 2].sort do |a, b|
+    binding.pry
   if a.index == b.index
     0
   elsif a.index < b.index
